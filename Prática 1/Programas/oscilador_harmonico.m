@@ -1,5 +1,5 @@
 %Variáveis extraidas do simulink
-t = out.out;
+t = out.tout;
 u = out.simout(:,1);
 x = out.simout(:,2);
 v = out.simout(:,3);
