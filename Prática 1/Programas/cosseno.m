@@ -6,9 +6,9 @@ sin = out.simout(2:end,3);
 
 
 plot(t,sin,'r',t,cos_int,'b',t,cos_ddt,'g--','LineWidth',2)
-legend(' Seno',' Cosseno-Integral',' Cosseno-Derivada','FontSize',15)
-xlabel('Tempo [s]','FontSize',20)
-ylabel('Amplitude','FontSize',20)
+legend(' Seno',' Cosseno-Integral',' Cosseno-Derivada','FontSize',25)
+xlabel('Tempo [s]','FontSize',30)
+ylabel('Amplitude','FontSize',30)
 ax = gca;
-ax.FontSize = 15;
+ax.FontSize = 30;
 grid on
